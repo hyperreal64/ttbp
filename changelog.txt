@@ -22,6 +22,12 @@ TO-DO:
 ------
 
 CHANGELOG:
+ver 0.11.1
+  -fixed feedback menu bug
+  -move config/__init__.py to config.py
+  -move config/defaults and config/banner-beta.txt to ../
+  -use importlib.resources to import the default style.css
+
 ver 0.11.0
   -added rainbow menus
 	-added pub/nopub selector
